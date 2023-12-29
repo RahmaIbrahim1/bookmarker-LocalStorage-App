@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url("Pacifico-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.bg-light-yellow {
+    background-color: #f7ecde;
+    min-height: 100vh;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.dotted{
+    border-style: dotted;
+    border-width: 2px 0px 2px 0px;
+}
+.dotted .green {
+    background: linear-gradient(to right, green, yellow);
+    background-clip: text;
+    color: transparent;
+}
+.btn-red{
+background-color: #d1512d;
+}
+.btn-red:hover{
+    background-color: #BB4120;
+    cursor: pointer;
+}
+.circles span{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.circles span:nth-child(1){
+ background-color: #f15f5d;
+}
+.circles span:nth-child(2) {
+  background-color: #febe2e;
+}
+.circles span:nth-child(3) {
+  background-color: #4db748;
+}
